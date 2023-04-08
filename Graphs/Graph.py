@@ -1,7 +1,7 @@
 from collections import defaultdict
 from random import randint
 
-class Graph:                                            # Класс для представления графика
+class Graph:                                            # Класс для представления графа
 	def __init__(self, vertices):
 		self.graph = defaultdict(list)                      # Cловарь, содержащий список смежности
 		self.V = vertices
